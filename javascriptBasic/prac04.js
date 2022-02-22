@@ -2,6 +2,7 @@ let car01 = "sonata";
 let car02 = "bmw";
 let car03 = "tesla";
 
+// 다양한 데이터타입을 넣을 수 있음
 let cars = [car01, car02, 392];
 //console.log(cars);
 
