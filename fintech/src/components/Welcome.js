@@ -4,7 +4,7 @@ const Welcome = (props) => {
     console.log(props);
     return (
     <div>
-        안녕하세요! {props.age} {props.username} {props.surplus} 님 반갑습니다!
+        안녕하세요! {props.age} {props.username} 님 반갑습니다!
     </div>
     );
   };
