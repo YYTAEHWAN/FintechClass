@@ -6,6 +6,7 @@ const TransactionList = ({ transactionList }) => {
       <table style={{ width: "100%", margin: "10px" }}>
         <thead>
           <tr>
+            <td>순번</td>
             <td>날짜</td>
             <td>내용</td>
             <td>금액</td>
@@ -13,9 +14,12 @@ const TransactionList = ({ transactionList }) => {
           </tr>
         </thead>
         <tbody>
-          {transactionList.map((transaction, index) => {
+            {}
+          {transactionList.length > 0 &&
+          transactionList.map((transaction, index) => {
             return (
               <tr key={index}>
+                <td>{index+1}</td>
                 <td>{transaction.tran_date}</td>
                 <td>{transaction.print_content}</td>
                 <td>{transaction.tran_amt}</td>
