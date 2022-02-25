@@ -7,6 +7,8 @@ import BitcoinAPI from "./components/0223Prac/BitcoinAPI";
 import Practice from "./components/0223Prac/Practice";
 import AuthPage from "./pages/AuthPage";
 import AuthResult from "./pages/AuthResult";
+import MainPage from "./pages/MainPage";
+import BalancePage from "./pages/BalancePage";
 
 
 function App() {
@@ -26,6 +28,12 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/authResult" element={<AuthResult ></AuthResult>}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/main" element={<MainPage ></MainPage>}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/balance" element={<BalancePage ></BalancePage>}></Route>
       </Routes>
 
       {/* 실습코드 */}
