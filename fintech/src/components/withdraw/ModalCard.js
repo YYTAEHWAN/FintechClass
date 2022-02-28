@@ -98,8 +98,8 @@ const ModalCard = ({ bankName, fintechUseNo, tofintechno }) => {
   // const get2LeggedToken = () => {
     
   //   const sendData = {
-  //     "client_id":"9e2b2ee7-9f49-44f2-9a17-7b4b8244382d",
-  //     "client_secret":"502a2130-d3b4-4938-9bdd-8b36a060dfb9",
+  //     "client_id":"",
+  //     "client_secret":"",
   //     "scope":"oob",
   //     "grant_type":"client_credentials"
   //   }
